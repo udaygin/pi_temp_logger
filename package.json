@@ -1,0 +1,23 @@
+{
+  "name": "pi_temp_logger",
+  "version": "1.0.0",
+  "description": "This logs raspberry pi CPU temperature to a specified mqtt topic ",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mqtt",
+    "nodejs",
+    "raspberrypi",
+    "pi2",
+    "client"
+  ],
+  "author": "Uday Gottapu",
+  "license": "ISC",
+  "dependencies": {
+    "mqtt": "^2.1.3",
+    "properties-reader": "0.0.15",
+    "sys": "0.0.1"
+  }
+}

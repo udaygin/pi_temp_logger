@@ -1,0 +1,21 @@
+Detailed instructions: 
+http://thisdavej.com/beginners-guide-to-installing-node-js-on-a-raspberry-pi/
+
+Nodejs download for Raspberry Pi 
+https://github.com/nodesource/distributions
+
+
+NodeJs service installation: 
+https://gauntface.com/blog/2015/12/02/start-up-scripts-for-raspbian
+
+Normal PC temperature 
+http://askubuntu.com/questions/15832/how-do-i-get-the-cpu-temperature
+
+List services : 
+sudo systemctl list-units -t service
+
+Print active services: 
+sudo systemctl list-units -t service --no-legend
+
+Raspberry pi temperature :
+https://www.raspberrypi.org/forums/viewtopic.php?f=91&t=34994
